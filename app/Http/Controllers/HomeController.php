@@ -13,20 +13,6 @@ class HomeController extends Controller
     return view('welcome', compact('noticias')); // Pasar las noticias a la vista
 }
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
 
 }
